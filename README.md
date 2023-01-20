@@ -11,7 +11,7 @@ Syncfusion Scheduler CRUD Application with PHP and MySQL database.
 - In your Database create a table with the necessary fields
 - The SQL query required for creating the necessary table is being located in the `scheduledb.sql` file within the DB folder.
 
-## Start Wamp Server
+## Start Xampp Server
 
 - Please proceed with the download and installation of the XAMPP server on your system.
 - After the successful installation of the XAMPP server, kindly launch the application and start the Apache server.
