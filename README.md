@@ -3,7 +3,7 @@ Syncfusion Scheduler CRUD Application with PHP and MySQL database.
 
 ## Prerequisites
 - [MySQL](https://www.mysql.com/)
-- [WAMPSERVER](https://www.wampserver.com/en/)
+- [XAMPPSERVER](https://www.apachefriends.org/)
 
 ## MySQL Configuration
 
@@ -13,9 +13,9 @@ Syncfusion Scheduler CRUD Application with PHP and MySQL database.
 
 ## Start Wamp Server
 
-- Please proceed with the download and installation of the WAMP server on your system.
-- After the successful installation of the WAMP server, kindly launch the application and start all services
-- Please copy the `Javascript-Scheduler-CRUD-PHP-and-MySQL` repository and place it in the WAMP server's root directory, specifically at `C:\wamp64\www`.
-- Upon completion, kindly launch a web browser and navigate to `localhost`, you will be able to access our application under the `Your Projects` section.
+- Please proceed with the download and installation of the XAMPP server on your system.
+- After the successful installation of the XAMPP server, kindly launch the application and start the Apache server.
+- Please copy the `Javascript-Scheduler-CRUD-PHP-and-MySQL` repository and place it in the XAMPP server's root directory, specifically at `C:\xampp\htdocs`.
+- Upon completion, kindly launch a web browser and navigate to `localhost`, you will be able to see the server running.
 - Next, please navigate to `localhost/Javascript-Scheduler-CRUD-PHP-and-MySQL` in your web browser. You will now be able to access the running Syncfusion scheduler application.
 - Now you can perform the `CRUD` operations, and it will be reflected on MySQL Database.
