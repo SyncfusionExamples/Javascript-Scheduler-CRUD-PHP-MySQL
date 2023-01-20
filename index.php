@@ -21,8 +21,8 @@
   <div id="Schedule"></div>
   <script>
   var dataManager = new ej.data.DataManager({
-	url: "http://localhost/ej2-php-crud-service/server.php",
-	crudUrl: "http://localhost/ej2-php-crud-service/server.php",
+	url: "http://localhost/Javascript-Scheduler-CRUD-PHP-and-MySQL/server.php",
+	crudUrl: "http://localhost/Javascript-Scheduler-CRUD-PHP-and-MySQL/server.php",
 	adaptor: new ej.data.UrlAdaptor(),
 	crossDomain: true
 });
