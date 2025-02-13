@@ -1,8 +1,8 @@
 <?php
         $servername = "localhost";
 		$username = "root";
-		$password = "Sync@09121997";
-		$dbname = "syncfusion";
+		$password = "password";
+		$dbname = "username";
 	
 		$conn = new mysqli($servername, $username, $password, $dbname);
 		if($conn->connect_error) {        
