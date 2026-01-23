@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 27, 2022 at 07:30 PM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 8.1.5
+-- Generation Time: Jan 18, 2026 at 10:30 AM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -51,9 +51,9 @@ CREATE TABLE `appointments` (
 --
 
 INSERT INTO `appointments` (`Id`, `Subject`, `StartTime`, `EndTime`, `StartTimezone`, `EndTimezone`, `Location`, `Description`, `IsAllDay`, `RecurrenceID`, `FollowingID`, `RecurrenceRule`, `RecurrenceException`, `IsReadonly`, `IsBlock`, `RoomID`) VALUES
-(1, 'Meeting', '2022-12-12 00:00:00', '2022-12-13 00:00:00', NULL, NULL, '', '', b'1', NULL, NULL, 'FREQ=DAILY;INTERVAL=1;', '20221213T183000Z', NULL, NULL, NULL),
-(2, 'edited', '2022-12-05 00:00:00', '2022-12-08 00:00:00', NULL, NULL, '', '', b'1', NULL, NULL, NULL, NULL, NULL, NULL, 4),
-(3, 'Edited event', '2022-12-05 00:00:00', '2022-12-11 00:00:00', NULL, NULL, '', '', b'1', NULL, NULL, NULL, NULL, NULL, NULL, 4);
+(1, 'Meeting', '2026-01-16 00:00:00', '2026-01-17 00:00:00', NULL, NULL, '', '', b'1', NULL, NULL, 'FREQ=DAILY;INTERVAL=1;', '20221213T183000Z', NULL, NULL, 4),
+(2, 'edited', '2026-01-15 00:00:00', '2026-01-16 00:00:00', NULL, NULL, '', '', b'1', NULL, NULL, NULL, NULL, NULL, NULL, 4),
+(3, 'Edited event', '2026-01-17 00:00:00', '2026-01-18 00:00:00', NULL, NULL, '', '', b'1', NULL, NULL, NULL, NULL, NULL, NULL, 4);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

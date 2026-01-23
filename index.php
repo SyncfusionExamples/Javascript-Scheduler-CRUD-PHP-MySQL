@@ -2,17 +2,17 @@
 <head>
     <title>Essential Studio for JavaScript : Detail Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="https://cdn.syncfusion.com/ej2/20.4.38/ej2-base/styles/material.css" rel="stylesheet" type="text/css"/>
-        <link href="https://cdn.syncfusion.com/ej2/20.4.38/ej2-buttons/styles/material.css" rel="stylesheet" type="text/css"/>
-        <link href="https://cdn.syncfusion.com/ej2/20.4.38/ej2-calendars/styles/material.css" rel="stylesheet" type="text/css"/>
-        <link href="https://cdn.syncfusion.com/ej2/20.4.38/ej2-dropdowns/styles/material.css" rel="stylesheet" type="text/css"/>
-        <link href="https://cdn.syncfusion.com/ej2/20.4.38/ej2-inputs/styles/material.css" rel="stylesheet" type="text/css"/>
-        <link href="https://cdn.syncfusion.com/ej2/20.4.38/ej2-splitbuttons/styles/material.css" rel="stylesheet" type="text/css"/>
-        <link href="https://cdn.syncfusion.com/ej2/20.4.38/ej2-lists/styles/material.css" rel="stylesheet" type="text/css"/>
-        <link href="https://cdn.syncfusion.com/ej2/20.4.38/ej2-popups/styles/material.css" rel="stylesheet" type="text/css"/>
-        <link href="https://cdn.syncfusion.com/ej2/20.4.38/ej2-navigations/styles/material.css" rel="stylesheet" type="text/css"/>
-        <link href="https://cdn.syncfusion.com/ej2/20.4.38/ej2-schedule/styles/material.css" rel="stylesheet" type="text/css"/>
-		<script src="https://cdn.syncfusion.com/ej2/20.4.38/dist/ej2.min.js" type="text/javascript"></script>
+		<link href="https://cdn.syncfusion.com/ej2/32.1.20/ej2-base/styles/material.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.syncfusion.com/ej2/32.1.20/ej2-buttons/styles/material.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.syncfusion.com/ej2/32.1.20/ej2-calendars/styles/material.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.syncfusion.com/ej2/32.1.20/ej2-dropdowns/styles/material.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.syncfusion.com/ej2/32.1.20/ej2-inputs/styles/material.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.syncfusion.com/ej2/32.1.20/ej2-splitbuttons/styles/material.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.syncfusion.com/ej2/32.1.20/ej2-lists/styles/material.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.syncfusion.com/ej2/32.1.20/ej2-popups/styles/material.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.syncfusion.com/ej2/32.1.20/ej2-navigations/styles/material.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.syncfusion.com/ej2/32.1.20/ej2-schedule/styles/material.css" rel="stylesheet" type="text/css"/>
+		<script src="https://cdn.syncfusion.com/ej2/32.1.20/dist/ej2.min.js" type="text/javascript"></script>
 </head>
 <body>    
 <?php
@@ -21,16 +21,15 @@
   <div id="Schedule"></div>
   <script>
   var dataManager = new ej.data.DataManager({
-	url: "http://localhost/Javascript-Scheduler-CRUD-PHP-and-MySQL/server.php",
-	crudUrl: "http://localhost/Javascript-Scheduler-CRUD-PHP-and-MySQL/server.php",
+	url: "http://localhost/Javascript-Scheduler-CRUD-PHP-MySQL/server.php",
+	crudUrl: "http://localhost/Javascript-Scheduler-CRUD-PHP-MySQL/server.php",
 	adaptor: new ej.data.UrlAdaptor(),
 	crossDomain: true
 });
     var scheduleObj = new ej.schedule.Schedule({
 		height: "550px",
-        selectedDate: new Date(2020, 9, 20),
+        selectedDate: new Date(2026, 0, 16),
         views: ["TimelineDay", "TimelineWeek"],
-        allowDragAndDrop: true,
         eventSettings: { dataSource: dataManager },
         group: {
             resources: ["MeetingRoom"]
